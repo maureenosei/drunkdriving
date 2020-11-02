@@ -1,0 +1,84 @@
+a {
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-family: "Domine", serif;
+  font-weight: 550;
+  line-height: 7vh;
+}
+
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* Content */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 6.5vh;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+#title {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10vh;
+  margin-bottom: 3vh;
+}
+
+#date {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.charts {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.comparisons {
+  display: flex;
+  flex-direction: row;
+}
+.caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  justify-content: center;
+  text-align: center;
+  padding: 3px;
+}
+.footer {
+  background-color: #f5f5f5;
+  font-size: 12px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 760px) {
+  .comparisons {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
