@@ -600,7 +600,7 @@ function parseData(states) {
 var chart = c3.generate({
   bindto: "#chart",
   data: {
-    url: "/data/data1.csv",
+    url: "data/data1.csv",
   },
 
   axis: {
@@ -633,7 +633,7 @@ var chart = c3.generate({
   bindto: "#north",
 
   data: {
-    url: "/data/lawful.csv",
+    url: "data/lawful.csv",
     type: "bar",
     colors: {
       2012: "#AAB7B8",
@@ -663,7 +663,7 @@ var chart = c3.generate({
 var chart = c3.generate({
   bindto: "#south",
   data: {
-    url: "/data/unlawful.csv",
+    url: "data/unlawful.csv",
     type: "bar",
     colors: {
       2012: "#AAB7B8",
